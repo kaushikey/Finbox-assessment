@@ -7,11 +7,11 @@ Steps to run the code:
 
 NOTE: "npm start" will run the program repeatedly (click on terminal -> press "ctrl + C" two times to exit)
 
-Results:
-  A folder with product name will be created in same directory which contains all the needed files.
+<pre>Results:
+  A folder with product name will be created in same directory which contains all the needed files.</pre>
 
 
-Working of program:
+<pre>Working of program:
     1. Create new Puppeteer Browser instance.
     2. Create new browser page variable is created to crawl the web page.
     3. Search for the Product on Amazon (program will wait until page get loads).
@@ -19,4 +19,4 @@ Working of program:
     5. Click on the First Product Link and wait for page loading.
     6. Extract Product Details.
     7. Create new folder if not exist and take the screenshot along with the HTML content.
-    8. Store Product Data and close the browser.
+    8. Store Product Data and close the browser.<\pre>
